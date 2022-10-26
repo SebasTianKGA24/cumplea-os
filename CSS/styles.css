@@ -1,0 +1,131 @@
+:root{
+    --green: hsl(162,45%,56%);
+    --plomo: hsl(162,2%,56%);
+    --blue: hsl(220,85%,57%);
+    --violet: hsl(272,92%,32%);
+    --tex-white: hsl(0,0%,100%);
+    --text-light-gray: hsl(0,0%,90%);
+    --body-bg-color: hsl(200,54%,12%);
+    --glass-bg-color: hsla(0,0%,100%,0.05);
+    --boder-color: hsla(0,0%,100%,0.25);
+    --blur: blur(10px);
+    --button-hover-color: hsla(0,0%,0%,0.3);
+}
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--text-light-gray);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    color: #000000;
+}
+
+.btn-twitter{
+    background-color: #31a1f2;
+    color: white;
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px black;
+}
+
+/* GLOBAL */
+
+body, html, .container, .row{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #1e1e96, #223946) 1;
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom, #1e1e96, #223946);
+    border: 0;
+    font-family: 'VT323', monospace;
+}
+
+div.form-group{
+    margin: 10px auto;
+    box-shadow: 15px 10px 15px #48529944;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #1e1e96, #223946);
+    color: white;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-shadow: 20px 20px 10px #48529944;
+}
+
+.card-body
+{
+    background-image: url('https://i.pinimg.com/736x/a7/c2/3f/a7c23f47ea50c2305ae762abb369ef61--happy-birthday-ballons-birthday-greetings.jpg');
+    box-shadow: 15px 10px 15px #48529944;
+}
+
+.card-content
+{
+    background-color: rgba(255, 255, 255, 0.849);
+    background-clip: padding-box;
+    border: 10px solid rgba(48, 107, 104, 0.5);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.card-content img
+{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#1e1e96, #223946);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
